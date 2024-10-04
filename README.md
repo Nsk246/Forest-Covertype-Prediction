@@ -51,7 +51,16 @@ designation
 ● Cover_Type - Forest Cover Type designation
 
 ## Approach
-To achieve accurate classification, I explored various classifying techniques. I finalized Random Forest Classifier for the purpose of this project
+To achieve accurate classification, I explored various classifying techniques. I finalized Random Forest Classifier for the purpose of this project. The highest achieved average accuracy is 0.88. The model is saved as a pickle file.
 
 ## Training the classifier model
 Run the Python notebook to train the classifier and save the model as a pickle file.
+
+## Running the forest cover type prediction system
+1. Load the .pkl model file and update the path to the model in the `app.py` file.
+2. Run the `app.py` file using the command python app.py.
+3. Input the features and run the prediction system. Output label will be displayed.
+
+## Screenshots
+
+![App Screenshot](SCREENSHOT.png)
